@@ -6,6 +6,6 @@ namespace ConsoleApp1
 {
     class Class1
     {
-        public int MyProperty { get; set; }
+        public long MyProperty { get; set; }
     }
 }
