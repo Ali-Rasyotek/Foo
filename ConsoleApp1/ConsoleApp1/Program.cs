@@ -6,8 +6,13 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");//
-            Class1 a = new Class1();
+            var c = new TestClass
+            {
+                Number = 3
+            };
+
+            c.Method();
+
         }
     }
 }
